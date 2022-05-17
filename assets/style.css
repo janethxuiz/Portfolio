@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    color: aqua;
+}
+
+#header ul li {
+    display: inline;
+}
+
+#about {
+    height: 600px;
+    background-color: antiquewhite;
+}
+
+#works {
+    height: 600px;
+    background-color: aquamarine;
+}
+
+#contact {
+    height: 600px;
+    background-color: black;
+}
