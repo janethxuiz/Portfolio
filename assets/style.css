@@ -1,35 +1,215 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-#header {
+body {
+    background-color: dimgrey;
+}
+
+.header {
     height: 100px;
     display:flex;
     justify-content: space-between;
-    background-color: blueviolet;
-    color: aqua;
+    background-color: gray;
+    color: white;
 }
 
-#header ul li {
-    display: inline;
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
 }
 
-#about {
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.about {
     height: 600px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.work {
+    height: 600px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    height: 600px;
+    background-color: white;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+
+}
+
+.featured-project {
+width: 100%;
+
+}
+
+#img-1 {
+    width: 60%;
+    height: 300px;
+}
+
+.coming-soon img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.project-two img, .project-three img {
+    width: 60%;
+    height: 300px;
+}
+
+
+
+
+
+/*from the other project*/
+
+body {
     background-color: antiquewhite;
 }
 
-#works {
-    height: 600px;
-    background-color: aquamarine;
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgray;
+    color: white;
 }
 
-#contact {
-    height: 600px;
-    background-color: black;
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
 }
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    color: white;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    color: #ffffff;
+}
+
+.work img {
+    max-height: 200px;
+}
+
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
