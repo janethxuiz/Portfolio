@@ -12,13 +12,6 @@ body {
     background-color: dimgrey;
 }
 
-.header {
-    height: 100px;
-    display:flex;
-    justify-content: space-between;
-    background-color: gray;
-    color: white;
-}
 
 .header h1 {
     display: inline-block;
@@ -112,6 +105,11 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgray;
+    color: white;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
     background-color: lightgray;
     color: white;
 }
