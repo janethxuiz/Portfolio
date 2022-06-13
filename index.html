@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Portfolio</title>
 </head>
 
@@ -13,41 +13,46 @@
         <h1>Janeth Torres Ruiz</h1>
         <div>
             <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-info">Contact Info</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-info">Contact Info</a></li>
+                <li><a href="#resume">Resume</a></li>
             </ul>
         </div>
     </div>
-    <div class="hero"></div>
+    <div class="box"></div>
     <div class="content">
         <div id="about-me" class="about-me">
-            <img src="" class="float-left" />
+            <img id="meImage" src="./assets/janeth.img (2).jpg" alt="Profile picture of Janeth Ruiz" class="float-left" />
             <h2>About Me</h2>
             <p>
-                Hello my name is Janeth, this is my first try in creating my own Portfolio as I progress it will look a lot better. Promise :)
+                Hi my name is Janeth Ruiz I am a full-time healthcare worker transitioning into the world of tech. I am currently a student attending University of Oregon Web Development Coding Bootcamp.
             </p>
         </div>
 
-        <div id="work" class="work">
+        <section id="work" class="work">
             <h2>My Projects</h2>
-            <div class="run-buddy">
+            <div class="project">
                 <a href="https://github.com/janethxuiz/run-buddy.git" >
-                    <img id="img-1" class="card-image" src="./assets/hero-bg.jpg" alt="img-1">
+                    <h2 class="project-name">Run Buddy</h2>
                 </a>
-                <h3>Project One</h3>
-                <p class="run-buddy">Run Buddy</p>
+                <img id="img-1" class="card-image" src="./assets/hero-bg.jpg" alt="run-buddy">
             </div>
-        </div>
+
+            <div class="project">
+                <a href="#">
+                    <h2 class="porject-name">Quiz Me</h2>
+                </a>
+                <img id="img-2" class="card-image" src="#" alt="quiz-me">
+            </div>
+
+            <div class="project">
+                <a href="#">
+                    <h2 class="project-name">Password Generator</h2>
+                </a>
+                <img id="img-3" class="card-image" src="#" alt="password-generator">
+            </div>
+        </section>
 
         <section id="contact-info" class="contact-info">
             <h2>Contact Info</h2>
@@ -64,12 +69,7 @@
         </div>
     </div>
     
-    <div class="footer">
-        <h2>janethxuiz</h2>
-        <p>
-            &copy; j
-        </p>
-    </div>
+    <footer id="footer">Copyright @</footer>
 </body>
 
 </html>

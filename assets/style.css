@@ -4,6 +4,82 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: lightgrey;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgray;
+    color: rgb(46, 45, 45);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(46, 45, 45);
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.about-me {
+    box-sizing: content-box;
+    background-color: lightgrey;
+    width: 570px;
+    border: 10px solid black;
+    padding: 150px;
+    margin-left: 100px;
+}
+
+.content p {
+    
+}
+
+
+
+#meImage {
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin: 25px 15px 25px 0px;
+}
+
+#img-1 {
+    float: left;
+    width: 25%;
+    height: 200px;
+    margin: 10px 15px 10px 0px;
+}
+
+..div {
+    background-color: lightgrey;
+    width: 10px;
+    border: 15px solid green;
+    padding: 50px;
+    margin-left: 500px;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -96,9 +172,11 @@ width: 100%;
 
 
 
+
+
 /*from the other project*/
 
-body {
+/*body {
     background-color: antiquewhite;
 }
 
@@ -210,4 +288,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-
+ */
