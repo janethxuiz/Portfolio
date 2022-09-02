@@ -1,89 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
-    <div class="header">
-        <h1>Janeth Torres Ruiz</h1>
-        <div>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-info">Contact Info</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
+  <body>
+    <header>
+      <div class="d-flex justify-content-center">
+        <div class="header">
+          <ul>
+            <li><a class="p-2 bd-highlight" href="#about-me">About Me</a></li>
+            <li><a class="p-2 bd-highlight" href="#skills">Skills</a></li>
+            <li><a class="p-2 bd-highlight" href="#projects">Projects</a></li>
+            <li>
+              <a class="p-2 bd-highlight" href="#contact-info">Contact</a>
+            </li>
+          </ul>
         </div>
-    </div>
-    <div class="box"></div>
+      </div>
+    </header>
+
+    <!-- main page -->
+    <!-- update h1 & p -->
+    <div class="d-flex p-2 bd-highlight"></div>
     <div class="content">
-        <div id="about-me" class="about-me">
-            <img id="meImage" src="./assets/janeth.img (2).jpg" alt="Profile picture of Janeth Ruiz" class="float-left" />
-            <h2>About Me</h2>
-            <p>
-                Hi my name is Janeth Ruiz I am a full-time healthcare worker transitioning into the world of tech. I am currently a student attending University of Oregon Web Development Coding Bootcamp.
-            </p>
+      <div id="about-me" class="about-me">
+        <img
+          id="meImage"
+          src="./assets/janeth.img (2).jpg"
+          alt="Profile picture of Janeth Ruiz"
+          class="d-inline-flex p-2 bd-highlight"
+        />
+        <div class="main-text">
+          <h1>Hi i am janeth</h1>
+          <p>
+            Welcome to my portfolio! I am a full-time healthcare worker
+            transitioning into the world of tech. I am currently a student
+            attending University of Oregon Web Development Coding Bootcamp.
+          </p>
+          <a href="#" class="project-btn">Projects</a>
         </div>
-
-        <section id="work" class="work">
-            <h2>My Projects</h2>
-            <div class="project">
-                <a href="https://janethxuiz.github.io/run-buddy/" >
-                    <h2 class="project-name">Run Buddy</h2>
-                </a>
-                <img id="img-1" class="card-image" src="./assets/hero-bg.jpg" alt="run-buddy">
-            </div>
-
-            <div class="project">
-                <a href="#">
-                    <h2 class="porject-name">Quiz Me</h2>
-                </a>
-                <img id="img-2" class="card-image" src="" alt="quiz-me">
-            </div>
-
-            <div class="project">
-                <a href="#">
-                    <h2 class="project-name">Password Generator</h2>
-                </a>
-                <img id="img-3" class="card-image" src="" alt="password-generator">
-            </div>
-
-            <div class="project">
-                <a href="https://lillielovatt.github.io/eat-your-luck/">
-                    <h2 class="project-name">Eat Your Luck</h2>
-                </a>
-                <img id="img-3" class="card-image" src="#" alt="eat-your-luck">
-            </div>
-
-            <div class="project">
-                <a href="https://sleepy-headland-09400.herokuapp.com/">
-                    <h2 class="project-name">Smorgasbord</h2>
-                </a>
-                <img id="img-3" class="card-image" src="#" alt="smorgasbord">
-            </div>
-        </section>
-
-        <section id="contact-info" class="contact-info">
-            <h2>Contact Info</h2>
-            <address>
-                E: Janethruiz152@gmail.com
-                P: 503.758.9001
-
-            </address>
-        </section>
-
-        <div id="resume" class="resume">
-            <h2>Resume</h2>
-
-        </div>
+      </div>
     </div>
-    
-    <footer id="footer">Copyright @</footer>
-</body>
 
+    <!-- skills page -->
+    <!-- update h2, add picture of resume, -->
+    <section id="skills">
+      <div class="skills-text">
+        <div class="skills-heading">
+          <span>My Skills</span>
+          <h2>List of my skills</h2>
+        </div>
+      </div>
+      <div>
+        <div class="skills-img">
+          <img src="/" />
+        </div>
+      </div>
+    </section>
+
+    <!-- projects page -->
+    <!-- class="d-flex p-2 bd-highlight" -->
+    <section id="work">
+      <h2>My Projects</h2>
+      <div class="project">
+        <a href="https://janethxuiz.github.io/run-buddy/">
+          <h2 class="project-name">Run Buddy</h2>
+        </a>
+        <img id="img-1" class="card-image" src="" alt="run-buddy" />
+      </div>
+
+      <div class="project">
+        <a href="#">
+          <h2 class="porject-name">Quiz Me</h2>
+        </a>
+        <img id="img-2" class="card-image" src="" alt="quiz-me" />
+      </div>
+
+      <div class="project">
+        <a href="#">
+          <h2 class="project-name">Password Generator</h2>
+        </a>
+        <img id="img-3" class="card-image" src="" alt="password-generator" />
+      </div>
+
+      <div class="project">
+        <a href="https://lillielovatt.github.io/eat-your-luck/">
+          <h2 class="project-name">Eat Your Luck</h2>
+        </a>
+        <img id="img-3" class="card-image" src="#" alt="eat-your-luck" />
+      </div>
+
+      <div class="project">
+        <a href="https://sleepy-headland-09400.herokuapp.com/">
+          <h2 class="project-name">Smorgasbord</h2>
+        </a>
+        <img id="img-3" class="card-image" src="#" alt="smorgasbord" />
+      </div>
+    </section>
+
+    <!-- contact info page -->
+    <section id="contact-info" class="contact-info">
+      <h2>Contact Info</h2>
+      <address>E: Janethruiz152@gmail.com P: 503.758.9001</address>
+    </section>
+
+    <!-- resume page -->
+    <section id="resume" class="resume">
+      <h2>Resume</h2>
+    </section>
+
+    <footer id="footer">Copyright @</footer>
+  </body>
 </html>

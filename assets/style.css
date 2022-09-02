@@ -4,10 +4,20 @@
     box-sizing: border-box;
 }
 
+/* to do: change background color */
 body {
     background-color: lightgrey;
 }
 
+ul {
+    list-style: none;
+}
+
+.a {
+    text-decoration: none;
+}
+
+/* to do: change the text font and text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,44 +28,91 @@ body {
     justify-content: space-between;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: rgb(46, 45, 45);
-}
-
 .header ul li {
     display: inline-block;
     margin-left: 25px;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* To do: change hover color */
+.header ul li a:hover {
+    background-color: aqua; 
+    color: beige;
+    box-shadow: 5px 10px 30px rgb(46, 45, 45);
+    transition: all ease;
+}
+
+#about-me {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .about-me {
-    box-sizing: content-box;
+    /* box-sizing: content-box;
     background-color: lightgrey;
     width: 570px;
-    border: 10px solid black;
     padding: 150px;
-    margin-left: 100px;
+    margin-left: 100px; */
+    width: 500px;
+    height: 500px;
 }
-
-
 
 #meImage {
-    float: left;
-    width: 50%;
-    height: 200px;
-    margin: 25px 15px 25px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
-#img-1 {
+.main-text {
+    /* width: 500px; */
+}
+
+/* change button color */
+.project-btn {
+    border-radius: 12px;
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 4px 10px 30px aqua;
+}
+
+.project-btn:hover {
+    background-color:wheat ;
+    transition: all ease 0,2s;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto auto 50px auto;
+}
+
+.skill-text {
+    width: 400px;
+}
+
+.skill-img {
+    
+}
+
+/* #img-1 {
     float: left;
     width: 25%;
     height: 200px;
@@ -74,12 +131,12 @@ body {
     width: 25%;
     height: 200px;
     margin: 10px 15px 10px 0px;
-}
+} */
 
-.div {
+/* .div {
     background-color: lightgrey;
     width: 10px;
     border: 15px solid green;
     padding: 50px;
     margin-left: 500px;
-}
+} */
